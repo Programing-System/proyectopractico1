@@ -1,0 +1,61 @@
+body{
+	margin:0;
+	padding: 0;
+}
+
+.mover{
+	width: 100%;
+}
+.hola{
+	display: flex;
+	float: left;
+	background-color:black;
+	width: 100%;
+}
+ul{
+	margin-left: 70%;
+}
+li{
+
+	width: 100px;
+	display: block;
+	float: left;
+	color: orange;
+}
+.cajas{
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 70%;
+	width: 350px;
+	height: 400px;
+	background-color: #2471A3;
+	opacity: 0.8;
+}
+.manzana{
+	padding-left: 100px;
+}
+input{
+	margin-left: 30px;
+	margin-top: 25px;
+	padding-top: 15px;
+}
+.inptext{
+	
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;
+	background-color: transparent;
+	color: black;
+}
+input::placeholder{
+	color: white;
+}
+.cajas1{
+	margin-left: 40px;
+}
+.sub{
+	margin-left:80px;
+	font-size: 22px;
+	text-align: center;
+
+}
